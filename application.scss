@@ -1,0 +1,73 @@
+/**
+  
+  SASS Bootstrap files for screen
+
+  @file
+
+  *  Core variables and mixins
+  *  CSS Reset
+  *  Grid system and page structure
+  *  HTML components
+  *  Menus
+  *  Drupal panes
+  *  Old SASS file 
+
+  @todo
+
+  *	 Set appropiate classes for styling.
+  *  Effectivise the SASS/CSS code
+  *  Clean old sass
+
+*/
+
+
+// Core variables and mixins
+@import "variables"; // Modify this for custom colors, font-sizes, etc
+@import "system";
+@import "mixins";
+
+// CSS Reset
+@import "reset";
+
+// Grid system and page structure
+@import "lucid";
+@import "960-grid";
+@import "layout";
+@import "dimensions";
+
+// Skins
+@import "skins";
+
+// Components
+@import "fonts";
+@import "forms";
+@import "tables";
+@import "buttons";
+@import "progress-bars";
+@import "border-lines";
+@import "paging";
+@import "tooltips";
+@import "menus";
+
+// Drupal panes
+@import "panes-front-page";
+@import "panes-node-page";
+@import "panes-node-edit-page";
+@import "panes-file-view-page";
+@import "panes-content-list-page";
+@import "panes-mydata-edit-page";
+@import "panes-mydata-overview-page";
+@import "panes-search-page";
+@import "panes-become-member-page";
+@import "panes-custom-page";
+@import "contact-views";
+// Popup
+@import "popup-dialogs";
+
+// Miscellanous
+@import "miscellanous";
+
+// Old SASS files
+@import "old";
+
+@import "overrides";
